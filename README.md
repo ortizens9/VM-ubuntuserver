@@ -1,4 +1,4 @@
-# VM-ubuntuserver-jammyjellyfish
+# Virtual Machine de Ubuntu Server
 **Buenos días**. Bienvenidos a mi repositorio sobre **Ubuntu Server** que he decidido crear en una VM y que estará basado en _Ubuntu Server 22.4.5 LTS (Jammy Jellyfish)_. Y que para ello usaremos **Oracle VirtualBox**.
 
 ## Creación de la máquina virtual
