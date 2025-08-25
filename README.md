@@ -3,9 +3,9 @@
 
 ## Creación de la máquina virtual
 
--Como no tenemos acceso directamente a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo [Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html), añadiendo la clave pública de Oracle y las dependencias necesarias.
-Fedora ya cuenta con un programa que nos permite hacer Máquinas Virtuales de una manera sencilla llamado Boxes sin embargo prefiero usar Virtual Box que parece más profesional.
-Ahora, nos bajamos la imagen .iso de [Ubuntu](https://ubuntu.com/download/alternative-downloads)<-Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
+-Como no tenemos acceso a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo [Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html), añadiendo la clave pública de Oracle y las dependencias necesarias.
+Fedora ya cuenta con un programa que nos permite hacer Máquinas Virtuales de una manera sencilla llamado _Boxes_, sin embargo prefiero usar Virtual Box que parece más profesional.
+Ahora, nos bajamos la imagen .iso de [Ubuntu](https://ubuntu.com/download/alternative-downloads) <-Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
 
 -A nuestra VM [le vamos a poner el nombre de "MYLABS-UbuntuServer"](VMachine/instalacion/1.png). Seleccionamos la imagen que hemos almacenado e importante: Marcamos la casilla de "Skip unattended installation".Le ponemos de [base de memoria 2048 MB y 2 CPUs](VMachine/instalacion/2.png). No activamos EFI (en el caso de mi PC que funciona así).
 [Le damos 25 GB .vdi](VMachine/instalacion/3.png), esto hace que el volumen se llame el nombre de nuestra máquina virtual+vdi. Una vez creada, hacemos clic en: Settings y en Network->Adapter 1 estará activado automáticamente Enable Network Adapter y [dejamos seleccionado NAT](VMachine/instalacion/7.png).
