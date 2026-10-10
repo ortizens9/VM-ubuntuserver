@@ -7,7 +7,7 @@
 Fedora ya cuenta con un programa que nos permite hacer Máquinas Virtuales de una manera sencilla llamado _Boxes_, sin embargo prefiero usar Virtual Box que parece más profesional.
 
 Ahora, nos bajamos la imagen .iso de ![Ubuntu](https://ubuntu.com/download/alternative-downloads)<-Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
-![le vamos a poner el nombre de "MYLABS-UbuntuServer"](VMachine/instalacion/1.png)
+<img src="VMachine/instalacion/1.png" width="700px" alt="nombre">
 ![base de memoria 2048 MB y 2 CPUs](VMachine/instalacion/2.png)
 -A nuestra VM le vamos a poner el nombre de "MYLABS-UbuntuServer". Seleccionamos la imagen que hemos almacenado e importante: Marcamos la casilla de "Skip unattended installation".Le ponemos de base de memoria 2048 MB y 2 CPUs. No activamos EFI (en el caso de mi PC que funciona así).
 
