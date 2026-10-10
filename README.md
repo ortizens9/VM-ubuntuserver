@@ -3,18 +3,12 @@
 
 ## Creación de la máquina virtual
 
-![Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html)
-
--Como no tenemos acceso a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo Opçao Linux, añadiendo la clave pública de Oracle y las dependencias necesarias.
+-Como no tenemos acceso a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo [Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html), añadiendo la clave pública de Oracle y las dependencias necesarias.
 Fedora ya cuenta con un programa que nos permite hacer Máquinas Virtuales de una manera sencilla llamado _Boxes_, sin embargo prefiero usar Virtual Box que parece más profesional.
 
-![Ubuntu](https://ubuntu.com/download/alternative-downloads)
-
-Ahora, nos bajamos la imagen .iso de Ubuntu <-Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
-
+Ahora, nos bajamos la imagen .iso de ![Ubuntu](https://ubuntu.com/download/alternative-downloads)<-Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
 ![le vamos a poner el nombre de "MYLABS-UbuntuServer"](VMachine/instalacion/1.png)
 ![base de memoria 2048 MB y 2 CPUs](VMachine/instalacion/2.png)
-
 -A nuestra VM le vamos a poner el nombre de "MYLABS-UbuntuServer". Seleccionamos la imagen que hemos almacenado e importante: Marcamos la casilla de "Skip unattended installation".Le ponemos de base de memoria 2048 MB y 2 CPUs. No activamos EFI (en el caso de mi PC que funciona así).
 
 ![Le damos 25 GB .vdi](VMachine/instalacion/3.png)
