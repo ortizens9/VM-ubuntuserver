@@ -42,14 +42,15 @@ Seleccionamos "Use an entire disk y Set up this disk as an LVM Group" y hubiera 
 ![Paso 12](VMachine/instalacion/21.png)
 ![Paso 13](VMachine/instalacion/22.png)
 ![Paso 14](VMachine/instalacion/24.png)
+![borramos la imagen de Ubuntu](VMachine/instalacion/6.png)
 
-Luego en OracleVM, vamos a Settings-> Storage y donde dice Devices: Controller IDE, [borramos la imagen de Ubuntu](VMachine/instalacion/6.png) ya que si iniciásemos la VM otra vez nos saltaría el asistente para instalar Ubuntu Server.
+Luego en OracleVM, vamos a Settings-> Storage y donde dice Devices: Controller IDE y borramos la imagen de Ubuntu. Ya que si iniciásemos la VM otra vez nos saltaría el asistente para instalar Ubuntu Server.
 
 ![se nos ejecuta automáticamente cloud-init](VMachine/instalacion/25.png)
 ![usuario y nuestra contraseña](VMachine/instalacion/26.png)
 ![cloud-init.disabled](VMachine/instalacion/28.png)
 ![inicia sin este proceso automático](VMachine/instalacion/29.png)
 
--La iniciamos y por ahora parece que se nos ejecuta automáticamente cloud-init, no le hacemos caso y le damos a enter, esto nos pedirá nuestro usuario y nuestra contraseña.
--Para solucionar el tema de _cloud-init_, creamos un archivo en _/etc/cloud_ para desactivarlo llamado cloud-init.disabled. Con el comando: sudo _touch /etc/cloud/cloud-init.disabled_. Así no lo borramos por si en alguna ocasión lo volvemos a necesitar reiniciamos y vemos que ya inicia sin este proceso automático].
+La iniciamos y por ahora parece que se nos ejecuta automáticamente cloud-init, no le hacemos caso y le damos a enter, esto nos pedirá nuestro usuario y nuestra contraseña.
+Para solucionar el tema de _cloud-init_, creamos un archivo en _/etc/cloud_ para desactivarlo llamado cloud-init.disabled. Con el comando: sudo _touch /etc/cloud/cloud-init.disabled_. Así no lo borramos por si en alguna ocasión lo volvemos a necesitar reiniciamos y vemos que ya inicia sin este proceso automático].
 
