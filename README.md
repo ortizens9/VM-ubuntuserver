@@ -18,7 +18,6 @@ Ahora, nos bajamos la imagen .iso de ![Ubuntu](https://ubuntu.com/download/alter
 Le damos 25 GB .vdi, esto hace que el volumen se llame el nombre de nuestra máquina virtual+vdi. Una vez creada, hacemos clic en: Settings y en Network->Adapter 1 estará activado automáticamente Enable Network Adapter y dejamos seleccionado NAT.
 
 <img src="VMachine/instalacion/4.png" width="700px" alt="5">
-
 -Hacemos clic en _Port Forwarding_ y creamos las reglas SSH, HTTP y HTTPS, creando así puertas desde nuestro host a la VM en modo NAT.
 
 -A partir de aquí pongo una serie de pantallazos del proceso de instalación:
