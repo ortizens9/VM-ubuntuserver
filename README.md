@@ -42,7 +42,7 @@ Seleccionamos "Use an entire disk y Set up this disk as an LVM Group" y hubiera 
 ![Paso 12](VMachine/instalacion/21.png)
 ![Paso 13](VMachine/instalacion/22.png)
 ![Paso 14](VMachine/instalacion/24.png)
-![borramos la imagen de Ubuntu](VMachine/instalacion/6.png)
+<img src="VMachine/instalacion/6.png" width="700px" alt="8">
 
 Luego en OracleVM, vamos a Settings-> Storage y donde dice Devices: Controller IDE y borramos la imagen de Ubuntu. Ya que si iniciásemos la VM otra vez nos saltaría el asistente para instalar Ubuntu Server.
 
