@@ -3,14 +3,14 @@
 
 ## Creación de la máquina virtual
 
--Como no tenemos acceso a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo [Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html), añadiendo la clave pública de Oracle y las dependencias necesarias.
+Como no tenemos acceso a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo [Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html), añadiendo la clave pública de Oracle y las dependencias necesarias.
 Fedora ya cuenta con un programa que nos permite hacer Máquinas Virtuales de una manera sencilla llamado _Boxes_, sin embargo prefiero usar Virtual Box que parece más profesional.
 
 Ahora, nos bajamos la imagen .iso de ![Ubuntu](https://ubuntu.com/download/alternative-downloads)<-Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
 
 <img src="VMachine/instalacion/1.png" width="700px" alt="nombre"><img src="VMachine/instalacion/2.png" width="700px" alt="2">
 
--A nuestra VM le vamos a poner el nombre de "MYLABS-UbuntuServer". Seleccionamos la imagen que hemos almacenado e importante: Marcamos la casilla de "Skip unattended installation".Le ponemos de base de memoria 2048 MB y 2 CPUs. No activamos EFI (en el caso de mi PC que funciona así).
+A nuestra VM le vamos a poner el nombre de "MYLABS-UbuntuServer". Seleccionamos la imagen que hemos almacenado e importante: Marcamos la casilla de "Skip unattended installation".Le ponemos de base de memoria 2048 MB y 2 CPUs. No activamos EFI (en el caso de mi PC que funciona así).
 
 
 <img src="VMachine/instalacion/3.png" width="700px" alt="3"><img src="VMachine/instalacion/7.png" width="700px" alt="4">
@@ -18,9 +18,9 @@ Ahora, nos bajamos la imagen .iso de ![Ubuntu](https://ubuntu.com/download/alter
 Le damos 25 GB .vdi, esto hace que el volumen se llame el nombre de nuestra máquina virtual+vdi. Una vez creada, hacemos clic en: Settings y en Network->Adapter 1 estará activado automáticamente Enable Network Adapter y dejamos seleccionado NAT.
 
 <img src="VMachine/instalacion/4.png" width="700px" alt="5">
--Hacemos clic en _Port Forwarding_ y creamos las reglas SSH, HTTP y HTTPS, creando así puertas desde nuestro host a la VM en modo NAT.
+Hacemos clic en _Port Forwarding_ y creamos las reglas SSH, HTTP y HTTPS, creando así puertas desde nuestro host a la VM en modo NAT.
 
--A partir de aquí pongo una serie de pantallazos del proceso de instalación:
+A partir de aquí pongo una serie de pantallazos del proceso de instalación:
 
 ![Paso 1](VMachine/instalacion/8.png)
 ![Paso 2](VMachine/instalacion/9.png)
