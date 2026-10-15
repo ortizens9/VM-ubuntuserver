@@ -6,7 +6,7 @@
 Como no tenemos acceso a este software directamente en los repositorios de **Fedora 42 Workstation** encontré un blog donde explicaba paso a paso cómo instalarlo [Opçao Linux](https://www.blogopcaolinux.com.br/2016/03/instalando-oracle-virtualbox-no-fedora.html), añadiendo la clave pública de Oracle y las dependencias necesarias.
 Fedora ya cuenta con un programa que nos permite hacer Máquinas Virtuales de una manera sencilla llamado _Boxes_, sin embargo prefiero usar Virtual Box que parece más profesional.
 
-Ahora, nos bajamos la imagen .iso de ![Ubuntu](https://ubuntu.com/download/server) <- Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
+Ahora, nos bajamos la imagen .iso de [Ubuntu](https://ubuntu.com/download/server) <- Recordad que buscamos la versión 22.04.5 LTS. Seguidamente abrimos Oracle Virtual Machine.
 
 <img src="VMachine/instalacion/1.png" width="700px" alt="nombre"><img src="VMachine/instalacion/2.png" width="700px" alt="2">
 
